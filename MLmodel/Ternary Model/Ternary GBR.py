@@ -6,9 +6,9 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_squared_error, r2_score
 from sklearn.feature_selection import RFE
 import shap
-import joblib  # 导入joblib用于模型保存
+import joblib  
 
-data = pd.read_csv(r"C:\Users\小华\Desktop\duosanyuansushuju3.csv",encoding='gbk')
+data = pd.read_csv(r"C:\.....",encoding='gbk')
 data.drop(["Formula","Remark","a","c"],inplace=True,axis=1)
 # data["a"] =data["a"].fillna(data["a"].mean())
 # data["c"] =data["c"].fillna(data["c"].mean())

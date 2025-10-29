@@ -7,7 +7,7 @@ from sklearn.metrics import mean_squared_error, r2_score
 from sklearn.feature_selection import RFE
 import shap
 
-data = pd.read_csv(r"C:\Users\小华\Desktop\siyuanshuju.csv",encoding='gbk')
+data = pd.read_csv(r"C:\.....",encoding='gbk')
 data.drop(["Formula","Remark","roce"],inplace=True,axis=1)
 # data["a"] =data["a"].fillna(data["a"].mean())
 # data["c"] =data["c"].fillna(data["c"].mean())

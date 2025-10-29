@@ -12,7 +12,7 @@ from sklearn.feature_selection import RFE
 from sklearn.model_selection import StratifiedKFold
 from sklearn.feature_selection import RFECV
 
-data = pd.read_csv(r"C:\......csv",encoding='gbk')
+data = pd.read_csv(r"C:\......",encoding='gbk')
 data.drop(["Formula","Remark","a","c","MN_ Mis"],inplace=True,axis=1)
 # data["a"] =data["a"].fillna(data["a"].mean())
 # data["c"] =data["c"].fillna(data["c"].mean())

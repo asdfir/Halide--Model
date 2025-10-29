@@ -11,7 +11,7 @@ from sklearn.feature_selection import RFE
 from sklearn.model_selection import StratifiedKFold
 from sklearn.feature_selection import RFECV
 
-data = pd.read_csv(r"C:\Users\小华\Desktop\luhuawuzong2.1.csv")
+data = pd.read_csv(r"C:\.....")
 data.drop(["Formula","Remark"],inplace=True,axis=1)
 # data["a"] =data["a"].fillna(data["a"].mean())
 # data["c"] =data["c"].fillna(data["c"].mean())

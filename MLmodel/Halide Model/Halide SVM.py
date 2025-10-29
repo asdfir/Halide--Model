@@ -8,7 +8,7 @@ from sklearn.model_selection import cross_val_score
 from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 from sklearn.feature_selection import RFE
 
-data = pd.read_csv(r"C:\Users\小华\Desktop\luhuawuzong2.csv")
+data = pd.read_csv(r"C:\.....")
 data.drop(["Formula","Remark"],inplace=True,axis=1)
 # data["a"] =data["a"].fillna(data["a"].mean())
 # data["c"] =data["c"].fillna(data["c"].mean())

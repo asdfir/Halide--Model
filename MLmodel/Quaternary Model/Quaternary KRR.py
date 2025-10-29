@@ -5,7 +5,7 @@ from sklearn.kernel_ridge import KernelRidge
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_squared_error, r2_score
 
-data = pd.read_csv(r"C:\Users\小华\Desktop\siyuanshuju.csv",encoding='gbk')
+data = pd.read_csv(r"C:\.....",encoding='gbk')
 data.drop(["Formula","Remark","roce"],inplace=True,axis=1)
 x=data.iloc[:,0:-1]
 y=data.iloc[:,-1]
